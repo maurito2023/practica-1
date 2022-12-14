@@ -1,0 +1,28 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+// The main method must be in a class named "Main".
+class Main {
+    public static void main(String[] args) {
+         Scanner input = new Scanner(System.in);
+        
+        int num1,num2,resultado;
+        String letras;
+        
+        System.out.println("BUEN DIA!!");
+        
+        System.out.println("Por favor digite un valor tipo entero");
+        num1 = input.nextInt();
+           System.out.println("el valor almacenado es:"+ num1);
+           
+            System.out.println("Por favor digite un valor tipo entero");
+        num2 = input.nextInt();
+           System.out.println("el valor almacenado es:"+ num2);
+           
+           resultado= num1/num2;
+           
+           System.out.println("este es el resultado final de la division :"+resultado);
+    
+    }
+}
